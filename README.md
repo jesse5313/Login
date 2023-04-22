@@ -1,5 +1,5 @@
 # Login
-![Imagen del proyecto](https://raw.githubusercontent.com/jesse5313/Login/prev.png)
+![Imagen del proyecto](https://raw.githubusercontent.com/jesse5313/Login/main/prev.png)
 
 ## Descripción 📑
 La aplicación consta de tres páginas principales: index.html, home.php y signup.html, y varias páginas secundarias PHP en la carpeta php: cerrar_sesion.php, conection.php, login.php y signup.php.

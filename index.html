@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="UTF-8">
+<title>Login GC</title>
+<link rel="icon" type="image/ico" href="img/gc.ico">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="bg"></div>
+
+<form action="php/login.php" method="post">
+
+<div class="welcome">
+<h1 style="text-align: center;color: #fff;">¡Bienvenido!</h1>
+</div>
+
+<div class="form-field">
+<label for="nombre"></label>
+<input type="text" id="username" name="username" placeholder="Usuario" autocomplete="off" required/>
+</div>
+  
+<div class="form-field">
+<input type="password" id="password" name="password" placeholder="Contraseña" autocomplete="off" required/>
+</div>
+  
+<div class="form-field">
+<button class="btn" type="submit">Ingresar</button>
+<a class="btn" style="text-decoration: none;" href="view/signup.html">Crear cuenta</a>
+</div>
+
+</form>
+<!-- partial -->
+  
+</body>
+</html>

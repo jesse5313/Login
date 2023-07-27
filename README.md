@@ -16,8 +16,6 @@ En la carpeta partials hay un archivo welcomeName.php que se utiliza para mostra
 
 En la carpeta php se encuentran los archivos PHP necesarios para la funcionalidad de la aplicación, como el archivo conection.php que se encarga de la conexión con la base de datos, login.php que se utiliza para verificar las credenciales de inicio de sesión, signup.php que se utiliza para guardar la información del usuario en la base de datos y cerrar_sesion.php que se utiliza para cerrar la sesión actual.
 
-En resumen, la aplicación es un sistema de inicio de sesión básico que utiliza PHP y MySQL para autenticar y almacenar información de usuario. El flujo de trabajo es el siguiente: el usuario ingresa sus credenciales en la página de inicio de sesión (index.html), el archivo login.php verifica las credenciales y redirige al usuario a home.php si son correctas, donde se muestra un mensaje de bienvenida personalizado y un botón de cierre de sesión. Si el usuario no tiene una cuenta, puede crear una en la página de registro (signup.html), que se procesa a través del archivo signup.php y guarda la información en la base de datos.
-
 ## Tecnologías 🛠
 [![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://es.wikipedia.org/wiki/HTML5)
 ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
